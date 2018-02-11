@@ -22,15 +22,14 @@ var genunderscores = function () {
 console.log(genunderscores());
 
 //THIS IS WHERE THE MAGIC BEGINS!!! 
+
+//Create a function the captures the key that user inputs.
 document.onkeyup = function (event) {
-
     var userguess = event.key;
-
+    console.log(event);
 }
 
-//Generate user input
-
-        //compare input from user with each letter from the word.
+//compare input from user with each letter from the word.
         //If letter is in the word, display it and show it.
         //if not set it to wrong guesses and deduct 1 point from "guesses left".
         //
