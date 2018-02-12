@@ -93,7 +93,7 @@ function startGame()
 	document.getElementById('wordToGuess').innerHTML = blanksAndSuccesses.join(' ');
 	document.getElementById('numGuesses').innerHTML = guessesLeft;
 	document.getElementById('winCounter').innerHTML = winCount;
-	document.getElementById('lossCounter').innerHTM L = loseCount;
+	document.getElementById('lossCounter').innerHTML = loseCount;
 	document.getElementById('wrongGuesses').innerHTML = wrongLetters;
 	// Testing / Debugging
 	console.log(choosenWord);
